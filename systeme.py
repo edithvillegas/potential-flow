@@ -1,7 +1,7 @@
 
 import numpy as np
-import mathfonct
-from geometrie import *
+from ecoulements import mathfonct
+from ecoulements.geometrie import *
 
 #function to find B in the matrix equation Ax = B
 def systemeB(matriceGeometrie, nomCases, tcoord, h=1, v=1, phiref=1):

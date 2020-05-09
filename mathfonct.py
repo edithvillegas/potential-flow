@@ -1,5 +1,5 @@
 import numpy as np
-import geometrie 
+from ecoulements import geometrie 
 
 
 #gradient: (i,j) element of the matrix gradient of a matrix, y component

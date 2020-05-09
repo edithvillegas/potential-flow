@@ -13,7 +13,7 @@ import systeme
 import affichages 
 
 #READ THE IMAGE 
-file_name = "pics/smile.bmp" #or "person.bmp"
+file_name = "pics/swirl2.bmp" #or "person.bmp"
 matrix = misc.imread(file_name) #reads the file
 matrix = matrix[:,:,1] #retains only one color channel
 shape = np.shape(matrix) #save shape of the matrix

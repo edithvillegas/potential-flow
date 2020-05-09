@@ -5,9 +5,9 @@ Created on Fri Sep 21 12:16:20 2018
 @author: E Villegas
 """
 
-import defGeometrie
-import systeme
-import affichages
+from ecoulements import defGeometrie
+from ecoulements import systeme
+from ecoulements import affichages
 
 #defining the initial parameters: 
 print("Conditions Initiales")

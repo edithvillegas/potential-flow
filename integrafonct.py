@@ -6,7 +6,7 @@ Created on Mon Sep 24 10:09:59 2018
 """
 import numpy as np
 from scipy import interpolate
-import geometrie
+from ecoulements import geometrie
 
 #function to convert the NaNs in a matrix to zeros
 def nantozero(matrice):

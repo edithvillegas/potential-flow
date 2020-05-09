@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np 
 
-import integrafonct 
-import geometrie
+from ecoulements import integrafonct 
+from ecoulements import geometrie
 
 def affGeometrie(matriceGeometrie):
     plt.figure()
